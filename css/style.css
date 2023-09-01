@@ -1,0 +1,86 @@
+
+.container{
+width: 700px;
+height: 700px;
+margin: 100px auto;
+text-align: center;
+background: #0ba7ea;
+position: relative;
+z-index: 0;
+}
+
+.cara{
+    margin: 0 auto;
+    z-index: 2;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+}
+
+.sombrero{
+    position: absolute;
+    z-index: 3;
+    top: 20px;
+    left: 300px;
+}
+
+.ojoizquierdo{
+    position: absolute;
+    z-index: 4;
+    top: 150px;
+    left: 0px;
+}
+
+.ojoderecho{
+    position: absolute;
+    z-index: 4;
+    top: 150px;
+    right: 300px;
+}
+
+.nariz{
+    position: absolute;
+    z-index: 6;
+    top: 200px;
+    left: 100px;
+    transition: .1s;
+}
+.naris:hover{
+    transform: scale(1.5);
+}
+
+.mostacho{
+    position: absolute;
+    z-index: 5;
+    bottom: 300px;
+    left: 255px;
+}
+
+.piernaderecha{
+    position: absolute;
+    z-index: 1;
+    bottom: 200px;
+    left: 200px;
+}
+
+.piernaizquierda{
+    position: absolute;
+    z-index: 2;
+    bottom: 100px;
+    right: 100px;
+}
+
+.manoizquierda{
+    position: absolute;
+    z-index: 1;
+    left: 100px;
+    top: 100px;
+}
+
+.manoderecha{
+    position: absolute;
+    z-index: 1;
+    right: 100px;
+    top: 100px;
+}
